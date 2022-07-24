@@ -1,0 +1,169 @@
+CONCATENATE("data:image/svg+xml;utf8, 
+
+<svg xmlns=""http://www.w3.org/2000/svg"" viewBox=""0 0 160 160""> 
+  
+  <!-- pawa SVG Objects to be used in the graphic -->
+  <!-- pawa -->
+  <defs>
+    <!-- Default Gradient: darkblue-blue-green -->
+    <linearGradient id=""grad-default"" x1=""0%"" y1=""0%"" x2=""100%"" y2=""0%"">
+      <stop offset=""0%"" style=""stop-color:%231d4370;stop-opacity:1"" />
+      <stop offset=""10%"" style=""stop-color:%231d4370;stop-opacity:1"" />
+      <stop offset=""50%"" style=""stop-color:%2305b7ed;stop-opacity:1"" />
+      <stop offset=""100%"" style=""stop-color:%2394c12e;stop-opacity:1"" />
+    </linearGradient>
+
+    <!-- Danger Gradient: yellow-red-purple -->
+    <linearGradient id=""grad-danger"" x1=""0%"" y1=""0%"" x2=""100%"" y2=""0%"">
+      <stop offset=""0%"" style=""stop-color:%23ffdb1c;stop-opacity:1"" />
+      <stop offset=""10%"" style=""stop-color:%23c48600;stop-opacity:1"" />
+      <stop offset=""50%"" style=""stop-color:%23c30042;stop-opacity:1"" />
+      <stop offset=""100%"" style=""stop-color:%237a0067;stop-opacity:1"" />
+    </linearGradient>
+
+    <!-- Success Gradient: green only -->
+    <linearGradient id=""grad-success"" x1=""100%"" y1=""0%"" x2=""0%"" y2=""0%"">
+      <stop offset=""0%"" style=""stop-color:%2394c12e;stop-opacity:1"" />
+      <stop offset=""10%"" style=""stop-color:%2394c12e;stop-opacity:1"" />
+      <stop offset=""100%"" style=""stop-color:%2394c12e;stop-opacity:1"" />
+    </linearGradient>
+    
+    <!-- Warning Icon -->
+    <svg id=""icon-warning"" xmlns=""http://www.w3.org/2000/svg"" x=""50%"" y=""50%"" width=""30"" height=""30"">
+      <svg xmlns=""http://www.w3.org/2000/svg"" viewBox=""0 0 160 160"">
+        <g>
+          <title>Warning Icon</title>
+          <g>
+            <path class=""fill-red"" stroke=""null"" opacity=""1"" d=""m149.03058,112.87698l-50.383,-87.26738c-8.22942,-14.41629 -29.03979,-14.41629 -37.23961,0l-50.4126,87.26738c-8.22942,14.41629 2.01295,32.32564 18.6198,32.32564l100.61798,0c16.60685,0 27.02684,-18.08696 18.79742,-32.32564zm-69.0324,12.96578c-4.38113,0 -8.0222,-3.64107 -8.0222,-8.0222s3.64107,-8.0222 8.0222,-8.0222c4.38113,0 8.0222,3.64107 7.84459,8.22942c0.20722,4.17391 -3.64107,7.81499 -7.84459,7.81499zm7.31175,-51.86311c-0.35523,6.21647 -0.74006,12.40333 -1.09528,18.6198c-0.17761,2.01295 -0.17761,3.84829 -0.17761,5.83164c-0.17761,3.28585 -2.75301,5.83164 -6.03886,5.83164s-5.83164,-2.36818 -6.03886,-5.65403c-0.53284,-9.67993 -1.09528,-19.18225 -1.62812,-28.86218c-0.17761,-2.54579 -0.35523,-5.12119 -0.56244,-7.66698c0,-4.20352 2.36818,-7.66698 6.21647,-8.76226c3.84829,-0.91767 7.66698,0.91767 9.3247,4.55874c0.56244,1.2729 0.74006,2.54579 0.74006,4.0259c-0.17761,4.05551 -0.56244,8.08141 -0.74006,12.07771z""/>
+          </g>
+        </g>
+      </svg>
+    </svg>
+
+    <!-- Pick Icon -->
+    <svg id=""icon-pick"" xmlns=""http://www.w3.org/2000/svg"" x=""80"" y=""82"" width=""40"" height=""40"">
+      <svg xmlns=""http://www.w3.org/2000/svg"" viewBox=""0 0 160 160"">
+      <g>
+        <title>Pick Icon</title>
+        <path fill=""rgb(88,89,91)"" id=""svg_2"" d=""m138.00628,81.84962l-0.1628,-0.17694c-7.38503,-8.08785 -15.8547,-16.09117 -25.89248,-24.46711c-1.51746,-1.26652 -8.38976,-6.70391 -8.71075,-6.97721s-0.65414,-0.51141 -0.58376,-0.8768c0.08354,-0.43379 0.20522,-0.90212 0.34861,-1.39544c0.12761,-0.43939 0.25916,-0.89423 0.3598,-1.37604c0.18319,-0.87515 0.29928,-1.65493 0.35519,-2.38472l0.00329,-0.03947c0.06249,-0.81365 0.17957,-2.32782 -0.76531,-3.3365c-0.33151,-0.35322 -0.93961,-0.77484 -1.95849,-0.77484c-0.75051,0 -1.48687,0.2266 -1.92626,0.36276l-0.04835,0.01513c-1.19515,0.36637 -2.2604,0.92646 -3.05531,1.37374c-0.4601,0.25883 -0.91955,0.53081 -1.36354,0.80905c-0.13287,0.08321 -0.26639,0.17431 -0.40058,0.26705c-0.34533,0.23844 -0.50812,0.4578 -1.01263,0.02763c-0.69789,-0.61402 -8.51473,-7.28274 -29.54175,-17.08636c-3.37268,-1.57238 -6.87131,-3.0165 -10.39758,-4.2919c-3.45851,-1.25041 -7.27123,-2.43175 -11.65423,-3.61111l-0.13385,-0.03618c-0.50944,-0.1378 -1.06163,-0.26574 -1.64408,-0.26574c-1.16424,0 -2.13904,0.53608 -2.74682,1.50956c-0.50089,0.8028 -0.62685,1.7799 -0.345,2.67972c0.29468,0.94257 0.99355,1.71051 1.91573,2.10747l2.35512,1.01394c9.33628,4.0163 18.5956,9.57735 28.30746,17.00085c3.32893,2.54488 6.33918,4.99702 9.20242,7.49685c1.35302,1.18134 2.7034,2.38011 4.01334,3.56343c0.11642,0.10458 1.10899,1.04946 1.10899,1.04946l-60.26583,71.51224c-1.89468,2.24724 -2.80864,4.83587 -2.64388,7.48533c0.15753,2.53107 1.33164,4.98222 3.22172,6.7243c1.84733,1.70262 4.25638,2.6396 6.78416,2.6396c0.31638,0 0.63671,-0.01513 0.95112,-0.04539c2.856,-0.2733 5.48837,-1.79503 7.22223,-4.17515c0.52391,-0.71861 51.53666,-70.72819 54.39694,-74.66095c7.93196,8.19013 15.41861,17.02683 22.25045,26.26445c1.34381,1.81674 3.72195,5.2029 3.82949,5.36635c0.45945,0.70413 0.98072,1.50134 1.71808,2.08872c0.5568,0.44267 1.20469,0.67717 1.87364,0.67717c1.04453,0 1.89304,-0.56337 2.4403,-0.9873l12.36001,-9.5734c1.47437,-1.28132 1.51779,-2.57843 1.51779,-2.57843c0.0934,-1.4257 -0.76662,-2.35841 -1.28264,-2.91783z"" opacity=""1"" stroke=""null"" />
+      </g>
+      </svg>
+    </svg>
+
+    <!-- Check Mark Icon -->
+    <svg id=""icon-check"" xmlns=""http://www.w3.org/2000/svg"" x=""80"" y=""82"" width=""40"" height=""40"">
+      <svg xmlns=""http://www.w3.org/2000/svg"" viewBox=""0 0 17.837 17.837"">
+      <g>
+        <title>Check Mark</title>
+        <g>
+        <path style=""fill:%2394c12e;"" d=""M16.145,2.571c-0.272-0.273-0.718-0.273-0.99,0L6.92,10.804l-4.241-4.27 c-0.272-0.274-0.715-0.274-0.989,0L0.204,8.019c-0.272,0.271-0.272,0.717,0,0.99l6.217,6.258c0.272,0.271,0.715,0.271,0.99,0 L17.63,5.047c0.276-0.273,0.276-0.72,0-0.994L16.145,2.571z""/>
+        </g>
+      </g>
+      </svg>
+    </svg>
+
+    <!-- Flash Icon -->
+    <svg id=""icon-flash"" xmlns=""http://www.w3.org/2000/svg"" x=""80"" y=""82"" width=""40"" height=""40"">
+        <svg version=""1.1"" id=""Capa_1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px""
+            viewBox=""0 0 512 512"" style=""enable-background:new 0 0 512 512;"" xml:space=""preserve"">
+        <g>
+            <title>Flash Icon</title>
+            <!-- Switch the icon color by the [Action Status] -->
+            <path class=""" , 
+                SWITCH( [Actions Status],
+                "💤 registered", "fill-darkblue",  
+                "✨ ongoing", "fill-blue",  
+                "✔️ completed", "fill-green",  
+                
+                "❕ due soon", "fill-orange",  
+                "❗ overdue", "fill-red",  
+                "☁ archived", "fill-grey",  
+                
+                "fill-grey"
+                )
+            , """  d=""M412.324,209.102C406.777,198.586,395.886,192,383.996,192h-60.219l72.844-145.688c4.953-9.922,4.422-21.703-1.406-31.133
+            C389.386,5.742,379.09,0,367.996,0h-160c-13.781,0-26,8.813-30.359,21.883l-80,240c-3.25,9.758-1.609,20.484,4.406,28.828
+            c6.016,8.344,15.672,13.289,25.953,13.289h74.703l-26.328,171.133c-2.266,14.75,5.953,29.117,19.828,34.617
+            c3.844,1.523,7.844,2.25,11.781,2.25c10.297,0,20.266-4.977,26.391-13.867l176-256C417.105,232.336,417.855,219.617,412.324,209.102
+            z""/>
+        </g>
+        </svg>
+    </svg>
+
+
+    <!-- Progress Circle -->
+    <g  id=""progress-circle"">
+      <title>Progress Circle</title>
+      <g>
+        <circle cx=""80"" cy=""80"" r=""60"" fill=""none"" stroke=""%23EEEEEE"" stroke-width=""22"" /> 
+        <circle cx=""80"" cy=""80"" r=""60"" fill=""none"" stroke=""%23FFFFFF"" stroke-width=""20"" /> 
+        <!-- Switch the gradient by the [Action Status] -->
+        <circle cx=""40"" cy=""80"" r=""60"" fill=""none"" stroke=""url(%23" , 
+          SWITCH([Actions Status], 
+            "❗ overdue", "grad-danger", 
+            "✔️ completed", "grad-success", 
+            "grad-default")
+        , ")"" stroke-width=""20"" stroke-dasharray=""376.991118"" stroke-dashoffset=""" , 376.991118*(1-[Progress]) , """ transform=""rotate(-90 60 60)""/> 
+      </g>
+    </g>
+
+    <!-- Text Elements -->
+    <g  id=""text-figures"">
+      <title>Text elements (Figures)</title>
+      <g>
+        <!-- Value from [Progress] -->
+        <text font-family=""Roboto,Arial,sans-serif"" font-size=""40px"" font-weight=""300"" text-anchor=""middle"" fill=""rgb(88,89,91)"" x=""52.5%"" y=""48%"">" , [Progress]*100 , "<tspan font-size=""20px"" fill=""rgb(88,89,91)"" style=""baseline-shift: super"">%</tspan></text>
+        <!-- Value from [Related Actions], Switch Text Color by the [Actions Status] -->
+        <text font-family=""Roboto,Arial,sans-serif"" font-size=""50px"" font-weight=""700"" text-anchor=""middle"" class=""" , 
+            SWITCH( [Actions Status],
+            "💤 registered", "fill-darkblue",  
+            "✨ ongoing", "fill-blue",  
+            "✔️ completed", "fill-green",  
+            
+            "❕ due soon", "fill-orange",  
+            "❗ overdue", "fill-red",  
+            "☁ archived", "fill-grey",  
+            
+            "fill-grey"
+            )
+        , """ x=""42%"" y=""75%"">" , COUNT([Related Actions]) , "</text>
+      </g>
+    </g>
+
+
+  </defs> <!-- END Object Definitions -->
+  
+
+  <!-- pawa Style Classes -->
+  <style>
+    .fill-darkblue { fill:%231d4370 }
+    .fill-blue { fill:%2305b7ed }
+    .fill-green { fill:%2394c12e }
+    .fill-yellow { fill:%23ffdb1c }
+    .fill-orange { fill:%23ca7800 }
+    .fill-red { fill:%23c30042 }
+    .fill-grey { fill:rgb(88,89,91) }
+  </style>
+
+
+  <!--  Draw the SVG: 
+        Use the Definition and Styles -->
+
+  <!-- Progress Circle -->
+  <use href=""%23progress-circle"" />
+  <!-- Actions Icon switch by [Actions Status] -->
+  <use href=""%23" , 
+      SWITCH( [Actions Status],
+      "❕ due soon", "icon-flash",  
+      "❗ overdue", "icon-warning",  
+      "✔️ completed", "icon-check",  
+
+      "icon-pick"
+      )
+  , """ />
+  <!-- Text Figures -->
+  <use href=""%23text-figures"" />
+  
+</svg>
+
+")

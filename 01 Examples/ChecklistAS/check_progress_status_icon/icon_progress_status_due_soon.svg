@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"> 
+
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1d4370;stop-opacity:1" />
+      <stop offset="10%" style="stop-color:#1d4370;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#05b7ed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#94c12e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="80" r="60" fill="none" stroke="#EEEEEE" stroke-width="22" /> 
+  <circle cx="80" cy="80" r="60" fill="none" stroke="#FFFFFF" stroke-width="20" /> 
+  <circle cx="40" cy="80" r="60" fill="none" stroke="url(#grad1)" stroke-width="20" stroke-dasharray="376.991118" stroke-dashoffset="113.0973354" transform="rotate(-90 60 60)"/> 
+
+  <text font-family="Roboto,Arial,sans-serif" font-size="40px" font-weight="300" text-anchor="middle" fill="rgb(88,89,91)" x="52.5%" y="48%">70<tspan font-size="20px" fill="%2C%5BtextColor%5D%2C" style="baseline-shift: super">%</tspan></text>
+
+  <text font-family="Roboto,Arial,sans-serif" font-size="50px" font-weight="700" text-anchor="middle" fill="#ef811a" x="42%" y="75%">2</text>
+
+  <svg xmlns="http://www.w3.org/2000/svg" x="50%" y="50%" width="30" height="30">
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+       <g><title>Warning</title>
+         <g>
+            <path fill="#ef811a" stroke="null" opacity="1" d="m149.03058,112.87698l-50.383,-87.26738c-8.22942,-14.41629 -29.03979,-14.41629 -37.23961,0l-50.4126,87.26738c-8.22942,14.41629 2.01295,32.32564 18.6198,32.32564l100.61798,0c16.60685,0 27.02684,-18.08696 18.79742,-32.32564zm-69.0324,12.96578c-4.38113,0 -8.0222,-3.64107 -8.0222,-8.0222s3.64107,-8.0222 8.0222,-8.0222c4.38113,0 8.0222,3.64107 7.84459,8.22942c0.20722,4.17391 -3.64107,7.81499 -7.84459,7.81499zm7.31175,-51.86311c-0.35523,6.21647 -0.74006,12.40333 -1.09528,18.6198c-0.17761,2.01295 -0.17761,3.84829 -0.17761,5.83164c-0.17761,3.28585 -2.75301,5.83164 -6.03886,5.83164s-5.83164,-2.36818 -6.03886,-5.65403c-0.53284,-9.67993 -1.09528,-19.18225 -1.62812,-28.86218c-0.17761,-2.54579 -0.35523,-5.12119 -0.56244,-7.66698c0,-4.20352 2.36818,-7.66698 6.21647,-8.76226c3.84829,-0.91767 7.66698,0.91767 9.3247,4.55874c0.56244,1.2729 0.74006,2.54579 0.74006,4.0259c-0.17761,4.05551 -0.56244,8.08141 -0.74006,12.07771z"/>
+         </g>
+       </g>
+    </svg>
+
+  </svg>
+  
+</svg>

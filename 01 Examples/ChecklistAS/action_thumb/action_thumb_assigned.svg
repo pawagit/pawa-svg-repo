@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+    <defs>
+        <!-- Danger Gradient: yellow-red-purple -->
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#1d4370;stop-opacity:1" />
+        <stop offset="20%" style="stop-color:#20598b;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#2071a6;stop-opacity:1" />
+        <stop offset="80%" style="stop-color:#05b7ed;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <rect id="background" fill="url(#grad)" width="100%" height="100%"/>
+    <svg width="180" height="180" viewBox="0 0 100 100" x="60" y="60"> 
+        <g fill="#eeeeee">
+            <path d="M49.91,20A25.4,25.4,0,1,0,75.09,45.5C75.09,31.71,63.85,20,49.91,20ZM66.45,43.24,55.93,53.38c-.76.76-1.77.13-1.77-1.14V46.16c-7.6,0-12.67,5.19-12.67,12.8h-7.6a20.12,20.12,0,0,1,20.27-20.4V32.35c0-1.27,1.14-1.9,1.77-1.14L66.45,41.47A1.52,1.52,0,0,1,66.45,43.24Z" />
+            <path d="M26,64.21H24.73A4.75,4.75,0,0,0,20,68.95v6.31A4.74,4.74,0,0,0,24.73,80H75.27A4.75,4.75,0,0,0,80,75.26V68.95a4.74,4.74,0,0,0-4.73-4.74H73.73a30.15,30.15,0,0,1-47.72,0Z" />
+        </g>
+    </svg>
+</svg>

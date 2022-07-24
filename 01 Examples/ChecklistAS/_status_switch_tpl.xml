@@ -1,0 +1,26 @@
+SWITCH([Status],
+"✔️ completed",CONCATENATE("data:image/svg+xml;utf8,
+
+
+
+"),"❗ overdue",CONCATENATE("data:image/svg+xml;utf8,
+
+
+
+"),"❕ due soon",CONCATENATE("data:image/svg+xml;utf8,
+
+
+
+"),"💤 registered",CONCATENATE("data:image/svg+xml;utf8,
+
+
+
+"),"💤 assigned",CONCATENATE("data:image/svg+xml;utf8,
+
+
+
+"),"✨ ongoing",CONCATENATE("data:image/svg+xml;utf8,
+
+
+
+"),"")

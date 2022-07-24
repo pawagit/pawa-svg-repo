@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"> 
+
+  <defs>
+    <linearGradient id="grad1" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#05b7ed;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#05b7ed;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#94c12e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#94c12e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="80" r="60" fill="none" stroke="#EEEEEE" stroke-width="22" /> 
+  <circle cx="80" cy="80" r="60" fill="none" stroke="#FFFFFF" stroke-width="20" /> 
+  <circle cx="40" cy="80" r="60" fill="none" stroke="url(#grad1)" stroke-width="20" stroke-dasharray="376.991118" stroke-dashoffset="113.0973354" transform="rotate(-90 60 60)"/> 
+
+  <text font-family="Roboto,Arial,sans-serif" font-size="40px" font-weight="300" text-anchor="middle" fill="rgb(88,89,91)" x="52.5%" y="48%">70<tspan font-size="20px" fill="%2C%5BtextColor%5D%2C" style="baseline-shift: super">%</tspan></text>
+
+  <text font-family="Roboto,Arial,sans-serif" font-size="50px" font-weight="700" text-anchor="middle" fill="#94c12e" x="42%" y="75%">2</text>
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" x="80" y="82" width="40" height="40">
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.837 17.837">
+     <g>
+      <title>Check mark</title>
+      <g>
+      <path style="fill:#94c12e;" d="M16.145,2.571c-0.272-0.273-0.718-0.273-0.99,0L6.92,10.804l-4.241-4.27
+        c-0.272-0.274-0.715-0.274-0.989,0L0.204,8.019c-0.272,0.271-0.272,0.717,0,0.99l6.217,6.258c0.272,0.271,0.715,0.271,0.99,0
+        L17.63,5.047c0.276-0.273,0.276-0.72,0-0.994L16.145,2.571z"/>
+      </g>
+    </g>
+    </svg>
+
+
+  </svg>
+</svg>
