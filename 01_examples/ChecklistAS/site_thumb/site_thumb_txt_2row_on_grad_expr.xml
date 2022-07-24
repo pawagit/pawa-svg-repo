@@ -12,7 +12,7 @@ CONCATENATE("data:image/svg+xml;utf8,
 
     <g font-family=""Roboto,Arial,sans-serif"" fill=""white"" font-size=""40px"" text-anchor=""middle"" >
         <text x=""50%"" y=""40%"" font-weight=""bold"">
-        " , ENCODEURL(SUBSTITUTE([Status].[Short], "%26","&amp;")) , "<tspan x=""50%"" dy=""1.2em"" font-size=""48px""> " , ENCODEURL(SUBSTITUTE( [Total Pending Actions]&"🔨", "%26","&amp;")) , "</tspan>
+        " , ENCODEURL(SUBSTITUTE([Status].[Short], "%26","&amp;")) , "<tspan x=""50%"" dy=""1.2em"" font-size=""48px"">" , ENCODEURL(SUBSTITUTE( [Total Pending Actions]&"🔨", "%26","&amp;")) , "</tspan>
         </text> 
     </g>
 </svg>
