@@ -6,13 +6,13 @@ Expressions for data driven SVG images in Appsheet are included where available.
 ## Examples
 
 ### Parent Progress and Number of children + Status
-<img src="./01_examples/icon_progress_status_overdue.svg">
+<img src="./01_examples/icon_progress_status_overdue.svg" width="300px">
 
 ### Thumbnail Icon: Path on gradient rect
-<img src="./01_examples/thumb_soon.svg">
+<img src="./01_examples/thumb_soon.svg" width="300px">
 
 ### Header Image: <tspan> 4 lines of text
-<img src="./01_examples/image_txt_4rows_on_grad.svg">
+<img src="./01_examples/image_txt_4rows_on_grad.svg" height="300px">
 
 
 ### pawaMap Map Markers
