@@ -13,3 +13,8 @@ Expressions for data driven SVG images in Appsheet are included where available.
 
 ### Header Image: <tspan> 4 lines of text
 <img src="./01_examples/image_txt_4rows_on_grad.svg">
+
+
+### pawaMap Map Markers
+
+<img src="./02_map_markers/pawamap/map_marker_icon_crystal.svg" height="80px" width="64px">
