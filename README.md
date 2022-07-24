@@ -1,6 +1,9 @@
 # pawa-svg-repo
-svg icons, thumbnails, defs and snippets. Expressions for data driven SVG images in Appsheet included where available
+Collection of SVG icons, thumbnails, defs and snippets created over time.
 
+Expressions for data driven SVG images in Appsheet are included where available.
+
+## Examples
 
 ### Parent Progress and Number of children + Status
 <img src="./01_examples/icon_progress_status_overdue.svg">
